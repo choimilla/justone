@@ -322,7 +322,7 @@ header{
         display:none;
     }
 
-.board{
+/* .board{
     position:relative;
     clear:both;
     width:1400px;
@@ -330,7 +330,7 @@ header{
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
-}
+} */
 
 .colorwrap{
     background-color: #fef7b8;
@@ -346,8 +346,6 @@ header{
     line-height: 50px;
     font-family:sans-serif;
     font-weight:800;
-    font-size:25px;
-    margin-top:10px;
     border-top:solid 1px;
     background-color: #fef7b8;
 }
@@ -505,6 +503,41 @@ footer{
     background-position: right;
 
 }
+
+/* 퀵메뉴 */
+.quick_menu{
+    position:fixed;
+    right:3%;
+    bottom:10%;
+    width:50px;
+    height:60px;
+}
+
+    #quick_top, #quick_end{
+        position:relative;
+        clear:both;
+        width:50px;
+        height:30px;
+        line-height:30px;
+        font-size:1rem;
+        text-align:center;
+
+        background-color: #ef819a;
+        transition: all 1s;
+    }
+
+    #quick_top a, #quick_end a {
+        color:#fff;
+    }
+
+    #quick_top:hover,#quick_end:hover {
+        background-color: #fef7b8;
+    }
+
+    #quick_top a:hover,#quick_end a:hover {
+        color:#333;
+    }
+
 
         
 
